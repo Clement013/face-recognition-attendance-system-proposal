@@ -61,15 +61,15 @@ flowchart TD
     O --> Q[📱 手机应用可查看管理]
     P --> Q
 
-    style A fill:#e1f5fe,stroke:#01579b,stroke-width:3px
-    style B fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    style C fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    style D fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
-    style E fill:#fff9c4,stroke:#f57f17,stroke-width:3px
-    style F fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
-    style G fill:#ffcdd2,stroke:#d32f2f,stroke-width:2px
-    style N fill:#e1f5fe,stroke:#0277bd,stroke-width:3px
-    style Q fill:#f1f8e9,stroke:#558b2f,stroke-width:3px
+    style A fill:#e1f5fe,stroke:#01579b,stroke-width:3px,color:#000
+    style B fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000
+    style C fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000
+    style D fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px,color:#000
+    style E fill:#fff9c4,stroke:#f57f17,stroke-width:3px,color:#000
+    style F fill:#c8e6c9,stroke:#388e3c,stroke-width:2px,color:#000
+    style G fill:#ffcdd2,stroke:#d32f2f,stroke-width:2px,color:#000
+    style N fill:#e1f5fe,stroke:#0277bd,stroke-width:3px,color:#000
+    style Q fill:#f1f8e9,stroke:#558b2f,stroke-width:3px,color:#000
     
     classDef decision fill:#fff3e0,stroke:#ff6f00,stroke-width:2px,color:#000
     classDef process fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#000
