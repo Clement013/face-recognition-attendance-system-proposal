@@ -104,11 +104,11 @@ Camera --> Face Detection --> Face Recognition -->
 | Phase 2        | Add Cloud Sync (Firebase), Admin Panel             | 2 weeks  | 0                    |
 | Phase 3        | Build Mobile App for Review                        | 2 weeks  | 0                    |
 | Testing Phase  | Testing all function                               | 2 weeks  | 0                    |
-| Hardware       | CPU + GPU + RAM Upgrade                            |          | \~2000               |
+| Hardware       | CPU + GPU + RAM Upgrade + CCTV                     |          | \~2500               |
 
 ****Data storage exceeding the free quota will increase costs** \
 **Total Time**: \~7 weeks\
-**Total Hardware Cost**: \~RM2000 (hardware only)\
+**Total Hardware Cost**: \~RM2500 (hardware only)\
 **Allowance Budget**: RM1000 (If possible)
 
 
