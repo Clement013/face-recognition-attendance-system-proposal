@@ -98,20 +98,21 @@ Camera --> Face Detection --> Face Recognition -->
 
 ## 8. 📆 Time & Cost Estimation
 
-| Phase     | Tasks                                              | Duration | Cost Estimate             |
-|-----------|----------------------------------------------------| -------- |---------------------------|
-| Phase 1   | Basic Face Recognition (local), Attendance Logging | 2 weeks  | RM 0 (software)           |
-| Phase 2   | Add Cloud Sync (Firebase), Admin Panel             | 2 weeks  | RM 0 (Firebase Free Tier) |
-| Phase 3   | Build Mobile App for Review                        | 3 weeks  | RM 0 (Flutter)            |
-| Hardware  | CPU + GPU + RAM Upgrade                            | 1 week   | \~RM2000 total            |
+| Phase          | Tasks                                              | Duration | Cost Estimate (RM)   |
+|----------------|----------------------------------------------------| -------- |----------------------|
+| Phase 1        | Basic Face Recognition (local), Attendance Logging | 2 weeks  | 0                    |
+| Phase 2        | Add Cloud Sync (Firebase), Admin Panel             | 2 weeks  | 0                    |
+| Phase 3        | Build Mobile App for Review                        | 2 weeks  | 0                    |
+| Testing Phase  | Testing all function                               | 2 weeks  | 0                    |
+| Hardware       | CPU + GPU + RAM Upgrade                            |          | \~2000               |
 
-
+****Data storage exceeding the free quota will increase costs** \
 **Total Time**: \~7 weeks\
-**Total Cost**: \~RM2000 (hardware only)\
+**Total Hardware Cost**: \~RM2000 (hardware only)\
 **Allowance Budget**: RM1000 (If possible)
 
 
-## 9. Benefits to the Church
+## 9. System Benefits
 
 - Reduce manual effort and error in attendance taking
 - Centralized and automatic tracking of weekly attendance
