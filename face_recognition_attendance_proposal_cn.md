@@ -32,14 +32,53 @@
    - 上传所有识别/未识别人脸图像至云端存储
    - 同步出席记录到云端数据库
 
-```
-流程图：
+```mermaid
+flowchart TD
+    A[🚀 系统启动] --> B[📹 摄像头开启<br/>开始实时视频捕捉]
+    B --> C[🔍 人脸检测<br/>RetinaFace算法]
+    C --> D[🧠 人脸识别<br/>ArcFace算法]
+    
+    D --> E{识别结果}
+    
+    E -->|识别成功| F[✅ 记录出席]
+    E -->|识别失败| G[❌ 未识别人脸]
+    F --> H{检查口罩}
+    H -->|戴口罩| I[😷 不更新照片]
+    H -->|未戴口罩| J[😊 可更新本地数据库<br/>可选功能]
+    
+    G --> K{检查口罩}
+    K -->|戴口罩| L[😷标记 口罩遮挡<br/>需手动确认]
+    K -->|未戴口罩| M[❓ 加入 未知人脸 列表<br/>供后续审核]
 
-摄像头 --> 人脸检测 --> 人脸识别 -->
-           |                      |
-   [口罩或未知人脸]           [已识别成员]
-           |                      |
-       手动确认             自动记录出席
+    I --> N[🏁 活动结束]
+    J --> N
+    L --> N
+    M --> N
+
+        N --> O[☁️ 上传图像至云端存储]
+    N --> P[📊 同步出席记录到云端数据库]
+    
+    O --> Q[📱 手机应用可查看管理]
+    P --> Q
+
+    style A fill:#e1f5fe,stroke:#01579b,stroke-width:3px
+    style B fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    style C fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style D fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    style E fill:#fff9c4,stroke:#f57f17,stroke-width:3px
+    style F fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
+    style G fill:#ffcdd2,stroke:#d32f2f,stroke-width:2px
+    style N fill:#e1f5fe,stroke:#0277bd,stroke-width:3px
+    style Q fill:#f1f8e9,stroke:#558b2f,stroke-width:3px
+    
+    classDef decision fill:#fff3e0,stroke:#ff6f00,stroke-width:2px,color:#000
+    classDef process fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#000
+    classDef endpoint fill:#e8f5e8,stroke:#388e3c,stroke-width:2px,color:#000
+    
+    class H,K decision
+    class I,J,L,M process
+    class O,P endpoint
+
 ```
 
 ## 4. 系统架构
