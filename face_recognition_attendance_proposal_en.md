@@ -109,7 +109,7 @@ Camera --> Face Detection --> Face Recognition -->
 
 ****Data storage exceeding the free quota will increase costs** \
 **Total Time**: \~8 weeks\
-**Total Hardware Cost**: \~RM2500 (hardware only)\
+**Total Hardware Cost**: \~RM2150\
 **Allowance Budget**: \~RM1000
 
 ## 9. System Benefits
