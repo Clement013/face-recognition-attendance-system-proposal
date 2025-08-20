@@ -142,7 +142,7 @@ flowchart TD
 | Phase 2        | Add Cloud Sync (Firebase), Admin Panel             | 2 weeks  | 0                    |
 | Phase 3        | Build Mobile App for Review                        | 2 weeks  | 0                    |
 | Testing Phase  | Testing all function                               | 2 weeks  | 0                    |
-| Computer       | CPU + GPU + RAM Upgrade + CCTV                     |          | 2000                 |
+| Computer       | CPU + GPU + RAM Upgrade                            |          | 2000                 |
 | Camera         | CCTV (TP-Link Tapo C230 5MP 3K Wireless)           |          | 150                  |
 
 ****Data storage exceeding the free quota will increase costs** \
