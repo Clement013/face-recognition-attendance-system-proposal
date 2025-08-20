@@ -143,7 +143,7 @@ flowchart TD
 | 阶段 2    | Firebase 云端同步 + 管理界面              | 2 周 | 0             |
 | 阶段 3    | 开发手机应用，用于查看与确认               | 2 周 | 0             |
 | 测试阶段  | 测试所有功能                              | 2 周 | 0             |
-| 电脑升级  | CPU + GPU + 内存升级 +  CCTV              |      | 2000          |
+| 电脑升级  | CPU + GPU + 内存升级                      |      | 2000          |
 | 摄像机    | CCTV (TP-Link Tapo C230 5MP 3K Wireless) |      | 150           |
 
 
